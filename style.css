@@ -1,0 +1,486 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #cdc7c7;
+}
+
+header {
+    height: 100vh;
+    background-image: url("img/WhatsApp Image 2024-11-25 at 09.43.13_59515369.jpg");
+    background-size: cover;
+}
+
+.logo {
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.navbar nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin: 20px;
+}
+
+.navbar nav ul li a {
+    text-decoration: none;
+    color: rgb(8, 0, 0);
+    font-weight: bold;
+}
+
+.navbar nav ul li a:hover {
+    border-bottom: solid 2px rgb(90, 82, 16);
+    color: rgb(3, 4, 81);
+    font-size: 20px;
+}
+
+.txt {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 75%;
+   
+
+    color: white;
+}
+
+ .txt h1 {
+    text-transform: uppercase;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 44px;
+    text-shadow: 2px 4px 5px rgba(20, 16, 16, 1);
+    color: #000;
+    margin-top: 50px;
+}
+
+ .txt p {
+    margin-bottom: 5px;
+    color: #2e0202;
+    font-size:20px;
+
+}
+
+ .txt a {
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border: solid black 2px;
+    background-color: gold;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+ .txt a:hover {
+    background-color: transparent;
+
+}
+
+.opinion {
+    position: relative;
+    background-color:#3e3b3b;
+    padding: 20px;
+    margin-top: 50px;
+    
+    align-items: center;
+    
+    justify-content: space-between; }
+
+.opinion::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(57, 56, 56, 0.7);
+  z-index: 1;
+  transform: scale(1); 
+  border-radius: 10px;
+}
+
+
+h1{
+    text-align:center;
+    justify-content: center;
+    color: rgb(245, 227, 227);
+    
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    
+
+}
+.opinion h1 .opinion1{
+    
+    text-align:center;
+    justify-content: center;
+    color: rgb(244, 227, 227);
+    
+    font-family: fantasy;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    
+
+}
+
+
+.opinion .grid {
+    position: relative;
+    z-index: 2;
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    display: inline-block;
+    height: 40vh;
+}
+
+.opinion .grid:hover {
+    transform: scale(1.03);
+}
+
+.grid img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.grid h3 {
+    margin: 15px 0;
+    font-size: 20px;
+    color: #E11010;
+}
+
+.grid p {
+    margin: 10px 0;
+}
+
+.image-section {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 20px;
+    margin: 0px;
+  
+
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    max-width: 100%;
+    max-height: 100%; 
+    padding: 50px;
+    
+    
+}
+
+.image-grid img {
+    width: 100%;
+   
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.image-grid img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    height: auto;
+    margin-top: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer .logo img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #e50914;
+}
+
+.social-icons i {
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+    color: white;
+}
+
+.footer-bottom-text {
+    font-size: 12px;
+    margin-top: 10px;
+    color: #aaa;
+}
+
+
+
+
+    
+.opinion hr {
+    
+    
+    border: 2px solid red;
+    
+    
+    width: 100px;
+    
+    margin: 20px auto;
+    
+    }
+    
+    
+    .opinion h2 {
+    
+    
+    
+    font-size: 40px;
+    
+    
+    
+    margin-bottom: 40px;
+    
+     }
+    
+    .grid {
+    
+    display: inline-block;
+    
+    margin: 20px;
+    
+    background-color: white;
+    
+    padding: 20px;
+    
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    
+    border-radius: 10px;
+    
+    max-width: 300px;
+    
+    text-align: center;
+    
+    color: #000000;
+    }
+
+
+
+
+    img{
+        height: 90px;
+        width: 90px;
+        border-radius: 5px;
+    }
+
+
+
+
+
+
+
+    .contant{
+        display: flex;
+        margin: auto;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 15px;
+        position: relative;
+        background-color:#3e3b3b;
+        padding: 20px;
+        margin-top: 50px;
+        align-items: center;
+        justify-content: space-between; 
+
+        
+
+    }
+
+    .item{
+        border: solid black 3px;
+        gap: 15px;
+        padding: 20px;
+        background-color: #fbebeb;
+    }
+
+    .item h3{
+        color: #28056c;
+        font-size: 20px; 
+        text-align:center;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+    
+    }
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1024px) {
+    .opinion .grid {
+        width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .text {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text .txt {
+        margin-top: 100px; /* تقليل الهوامش */
+        text-align: center; /* محاذاة النص إلى الوسط */
+    }
+
+    .opinion .grid {
+        width: 100%; /* لجعل العناصر تأخذ 100% على الشاشات الصغيرة */
+        margin-bottom: 20px;
+    }
+
+    .grid h3 {
+        font-size: 18px; /* تصغير حجم الخط */
+    }
+
+    .grid p {
+        font-size: 14px; /* تصغير حجم الخط */
+    }
+
+    .image-grid {
+        grid-template-columns: repeat(2, 1fr); /* عرض 2 صورة في الصف */
+    }
+}
+
+@media (max-width: 480px)  {
+    .image-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .icons {
+        font-size: 20px;
+    }}
+
+    @media (min-width: 1025px) {
+        .text {
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+    
+        .text .txt {
+            margin-top: 100px;
+            margin-left: 20px;
+            text-align: left;
+        }
+    
+        .image img {
+            width: 45%; /* تصغير حجم الصورة لتناسب اللابتوب */
+            max-width: 400px;
+        }
+    
+        /* تعديل الـ opinion لتكون الديفات جنب بعض */
+        .opinion .grid {
+            width: 30%;
+        }
+    }
+    
+    @media (min-width: 1025px) {
+        .text {
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+    
+        .text .txt {
+            margin-top: 100px;
+            margin-left: 20px;
+            text-align: left;
+        }
+    
+        .image img {
+            width: 45%; /* تصغير حجم الصورة */
+            max-width: 400px;
+        }
+    
+        /* تعديل الـ opinion لتكون الديفات جنب بعض */
+        .opinion .grid {
+            width: 25%;
+            margin-bottom: 20px; /* إضافة هامش أسفل الديفات */
+        }
+    
+        .icons {
+            font-size: 30px; /* تكبير حجم الأيقونات */
+        }
+    }
+    
+    @media (min-width: 1025px) {}
+    .opinion{ 
+
+    padding: 50px;
+    
+    
+    text-align: center;
+    
+    
+    color: #fff;
+    
+    
+    }
+    
